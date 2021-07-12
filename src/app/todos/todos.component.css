@@ -1,0 +1,45 @@
+#conteiner{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    margin: 5px auto;
+    width: 60%;
+    
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    color: black;
+    border: 1px solid white;
+    height: 30px;
+    font-style: italic;
+    font-size: 20px;
+    background-color: #80f1f1;
+    padding-left: 10px;
+    padding-top: 7px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#altura input{
+    height: 30px;
+    font-style: oblique;
+}
+.altura{
+    height: 30px;
+    font-style: italic;
+    margin: 10px;
+}
+.btn-li{
+    background-color: #6495ed75;
+    border: 1px solid whitesmoke;
+    margin-right: 5px;
+    
+}
+.bnt{
+    margin-left: 15px;
+}

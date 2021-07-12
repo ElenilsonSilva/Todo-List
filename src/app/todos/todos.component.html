@@ -1,0 +1,25 @@
+
+<div id="conteiner">
+    <form action="">
+        <div id="altura">
+            <input type="text" placeholder="Digite sua tarefa" #entrada>
+            <button class="altura" id="adicionar" (click)="onAdd(entrada)">Adicionar Tarefa</button>
+        </div>
+    </form>
+    
+    
+    <div>
+        <ul>
+            <li *ngFor="let todo of todos; let idx = index">
+                <span>
+                <input type="checkbox" id="check">
+                {{ todo }}
+                </span>
+                <span>
+                    <button class="bnt btn-li" (click)="edit(idx)">Edit</button> 
+                    <button class="btn-li" (click)="removeItem(todo)"> X </button>
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>
